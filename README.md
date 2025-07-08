@@ -9,8 +9,6 @@ A sleek and responsive web application that allows users to generate, view, and 
 - Automatically generate a **unique Ticket ID**.
 - Generate a **QR code** for each ticket.
 - **Print-friendly design** for easy ticket printing.
-- Simple **Admin Panel** to review all generated tickets.
-
 ## 🛠️ Technologies Used
 
 - HTML5
