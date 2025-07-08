@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin - Ticket Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>All Generated Tickets</h2>
+        <div id="ticketsList"></div>
+    </div>
+
+    <script>
+        const tickets = JSON.parse(localStorage.getItem("tickets")) || [];
+        const listDiv = document.getElementById("ticketsList");
+
+        if (tickets.length === 0) {
+            listDiv.innerHTML = "<p>No tickets found.</p>";
+        } else {
+            tickets.forEach(t => {
+                const ticketBox = document.createElement("div");
+                ticketBox.className = "ticket";
+                ticketBox.innerHTML = `
+          <p><strong>Name:</strong> ${t.name}</p>
+          <p><strong>Email:</strong> ${t.email}</p>
+          <p><strong>Date:</strong> ${t.date}</p>
+          <p><strong>Event:</strong> ${t.eventName}</p>
+          <p><strong>Seat:</strong> ${t.seat}</p>
+          <p><strong>Ticket ID:</strong> ${t.ticketID}</p>
+        `;
+                listDiv.appendChild(ticketBox);
+            });
+        }
+    </script>
+</body>
+
+</html>

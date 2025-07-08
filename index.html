@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Conference Ticket Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Conference Ticket Generator</h2>
+
+        <form onsubmit="generateTicket(event)">
+            <input type="text" id="name" placeholder="Enter full name" required />
+            <input type="email" id="email" placeholder="Enter email" required />
+            <input type="date" id="date" required />
+            <select id="event" required>
+                <option value="Tech Expo 2025">Tech Expo 2025</option>
+                <option value="AI Meetup">AI Meetup</option>
+                <option value="Web Conference">Web Conference</option>
+            </select>
+            <button type="submit">Generate Ticket</button>
+        </form>
+
+        <div id="ticket" class="ticket hidden">
+            <h3>Your Ticket</h3>
+            <p><strong>Name:</strong> <span id="ticketName"></span></p>
+            <p><strong>Email:</strong> <span id="ticketEmail"></span></p>
+            <p><strong>Date:</strong> <span id="ticketDate"></span></p>
+            <p><strong>Event:</strong> <span id="ticketEvent"></span></p>
+            <p><strong>Ticket ID:</strong> <span id="ticketID"></span></p>
+            <div id="qrcode" style="margin: 10px auto;"></div>
+            <button onclick="printTicket()">Print Ticket</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
