@@ -23,5 +23,5 @@ A sleek and responsive web application that allows users to generate, view, and 
 <img width="424" alt="o1" src="https://github.com/user-attachments/assets/c89e550b-3cfb-4dcb-ac77-f6324595aebd" />
 <img width="416" alt="o2" src="https://github.com/user-attachments/assets/7cead301-06a7-4185-8026-78861cb2d31e" />
 <img width="409" alt="o3" src="https://github.com/user-attachments/assets/66dff12e-d16c-4eab-a360-d61b8f61f0cd" />
-![o4](https://github.com/user-attachments/assets/84eee35d-f1eb-44d1-8143-e8c63fb4e3cd)
+![o4](https://github.com/user-attachments/assets/6689d6c1-4185-428a-970b-43d0abb5b460)
 
