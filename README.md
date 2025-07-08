@@ -1,25 +1,51 @@
 # 🎟️ Conference Ticket Generator
 
-A sleek and responsive web application that allows users to generate, view, and print personalized conference tickets with a unique Ticket ID and QR code. Built using **HTML, CSS, and JavaScript**, it also includes an **Admin Panel** to view all previously generated tickets.
+A responsive web application to generate personalized conference tickets with a unique Ticket ID and QR code. Built using **HTML, CSS, and JavaScript**, this app enables quick ticket creation for events like Tech Expo 2025 and AI Meetups.
 
 ## 🚀 Features
 
-- Generate tickets for events like **Tech Expo 2025**, **AI Meetup**, and **Web Conference**.
-- Save ticket details (name, email, date, event) in `localStorage`.
-- Automatically generate a **unique Ticket ID**.
-- Generate a **QR code** for each ticket.
-- **Print-friendly design** for easy ticket printing.
-## 🛠️ Technologies Used
+- Enter name, email, date, and select an event
+- Generate a **unique Ticket ID** and **QR Code**
+- Stylish and responsive ticket preview
+- **Print your ticket** directly from the browser
+- Data is stored in **localStorage** (no backend required)
+
+## 🌐 Live Demo
+
+🔗 [View Live on GitHub Pages](https://prakash-123705.github.io/Conference-ticket-generator/)
+
+## 🛠️ Built With
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
-- QRCode.js (via CDN)
+- JavaScript (Vanilla)
+- [QRCode.js](https://github.com/davidshimjs/qrcodejs) via CDN
 
 ## 📸 Screenshots
 
-<img width="424" alt="o1" src="https://github.com/user-attachments/assets/c89e550b-3cfb-4dcb-ac77-f6324595aebd" />
-<img width="416" alt="o2" src="https://github.com/user-attachments/assets/7cead301-06a7-4185-8026-78861cb2d31e" />
-<img width="409" alt="o3" src="https://github.com/user-attachments/assets/66dff12e-d16c-4eab-a360-d61b8f61f0cd" />
-![o4](https://github.com/user-attachments/assets/6689d6c1-4185-428a-970b-43d0abb5b460)
+![Form Interface](./o1.png)
+![Ticket Preview](./o2.png)
+![QR Code Display](./o3.png)
+![Print Layout](./o4.jpg)
+
+## 📂 How to Use
+
+1. Clone or download this repository.
+2. Open `index.html` in a web browser.
+3. Fill in the form → click **Generate Ticket**.
+4. View and print your personalized ticket.
+
+## 📎 Notes
+
+- All ticket data is stored in the browser using `localStorage`.
+- No backend/server required.
+- Responsive and print-optimized layout.
+
+## 👨‍💻 Author
+
+**Gnanaprakash Pathagunta**  
+📎 [GitHub](https://github.com/Prakash-123705)  
+🌐 [Portfolio](https://prakash-123705.github.io)
+
+---
 
